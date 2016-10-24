@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>previzClass</class>
+ <widget class="QMainWindow" name="previzClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>620</width>
+    <height>505</height>
+   </rect>
+  </property>
+  <property name="mouseTracking">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>previz</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>620</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionNew_Scene"/>
+    <addaction name="actionOpen_scene"/>
+    <addaction name="separator"/>
+    <addaction name="actionSave_Scene"/>
+    <addaction name="separator"/>
+    <addaction name="actionImport"/>
+   </widget>
+   <widget class="QMenu" name="menuViewer">
+    <property name="title">
+     <string>Viewer</string>
+    </property>
+    <addaction name="actionNormal"/>
+    <addaction name="actionColor"/>
+    <addaction name="actionLight"/>
+    <addaction name="actionBRDF"/>
+    <addaction name="separator"/>
+    <addaction name="actionFitting_Enable"/>
+    <addaction name="actionFitting_Disable"/>
+   </widget>
+   <widget class="QMenu" name="menuRender">
+    <property name="title">
+     <string>Render</string>
+    </property>
+    <addaction name="actionRenderBRDFCamera"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuViewer"/>
+   <addaction name="menuRender"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionNew_Scene">
+   <property name="text">
+    <string>New Scene</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="actionImport">
+   <property name="text">
+    <string>Import...</string>
+   </property>
+  </action>
+  <action name="actionOpen_scene">
+   <property name="text">
+    <string>Open Scene</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionSave_Scene">
+   <property name="text">
+    <string>Save Scene</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionNormal">
+   <property name="text">
+    <string>Normal</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Shift+N</string>
+   </property>
+  </action>
+  <action name="actionColor">
+   <property name="text">
+    <string>Color</string>
+   </property>
+  </action>
+  <action name="actionLight">
+   <property name="text">
+    <string>Light</string>
+   </property>
+  </action>
+  <action name="actionCamera">
+   <property name="text">
+    <string>CameraRender</string>
+   </property>
+  </action>
+  <action name="actionEnable">
+   <property name="text">
+    <string>Enable</string>
+   </property>
+  </action>
+  <action name="actionDisable">
+   <property name="text">
+    <string>Disable</string>
+   </property>
+  </action>
+  <action name="actionFitting_Enable">
+   <property name="text">
+    <string>Fitting Enable</string>
+   </property>
+  </action>
+  <action name="actionFitting_Disable">
+   <property name="text">
+    <string>Fitting Disable</string>
+   </property>
+  </action>
+  <action name="actionRenderBRDFCamera">
+   <property name="text">
+    <string>RenderBRDFCamera</string>
+   </property>
+  </action>
+  <action name="actionBRDF">
+   <property name="text">
+    <string>BRDF</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="previz.qrc"/>
+ </resources>
+ <connections/>
+</ui>

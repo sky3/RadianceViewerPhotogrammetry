@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/previz">
+        <file>move.png</file>
+        <file>rotate.png</file>
+        <file>moveD.png</file>
+        <file>fragmentShaderSample.frag</file>
+        <file>vertexShaderSample.vert</file>
+    </qresource>
+</RCC>

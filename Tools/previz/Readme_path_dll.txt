@@ -1,0 +1,1 @@
+PATH=$(QTDIR)\bin%3b..\..\..\LIB\xerces-c-3.1.1\xerces-c-3.1.1\Build\Win64\v110\Debug%3b$(QTDIR)\bin%3b..\..\..\LIB\ConfigLib\x64\v110\Debug\%3b$(QTDIR)\bin%3b..\..\..\LIB\Assimp\bin%3b..\..\..\LIB\glew-1.10.0\bin\Release\x64%3b..\..\..\LIB\zlib\bin%3b../../../LIB/embree-2.3.1/lib/x64/%3b../../../LIB/FreeImage/FreeImage-vc12/%3b$(PATH)
