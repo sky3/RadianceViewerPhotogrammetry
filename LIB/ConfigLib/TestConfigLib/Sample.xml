@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<dataset>
+  <Name value="testName"/>
+  <Root path="E:\"/>
+	<Directories>
+		<Images>
+      <Png path="pathPng\pathPng/pathPng\" />
+			<Jpg path="pathJpg" ext="jpg"/>
+			<Tif path="pathTif" ext="tiff"/>
+      <Png_Undist path="pathPng_Undist" />
+      <Jpg_Undist path="pathJpg_Undist" ext="jpg"/>
+      <Tif_Undist path="pathTif_undist" ext="tiff"/>
+			<Raw path="pathRaw" ext="CR2"/>	
+		</Images>
+		<External_data>
+			<Patch value="pathPatch"/>
+			<Bundle value="pathBundle"/>
+			<Obj value="pathObj0" sizeTag="sizeTag0"/>
+      <Obj value="pathObj1" sizeTag="sizeTag1"/>
+      <Obj value="pathObj2" sizeTag="sizeTag2"/>
+      <PhotoFly value="PhotoFlySample.xml"/>
+		</External_data>
+		<Internal_data>
+			<Pmvs path="pathPmvs" name="namePmvs" ext="txt"/>
+			<Spmvs path="pathSpmvs" name="nameSpmvs" ext="txt"/>
+      <Sobj path="pathSobj" name="nameSobj" ext="obj"/>
+			<Envmap value="pathEnvmap"/>
+			<EnvmapSky value="pathEnvmapSky"/>
+      <ShadowProxy path="pathShadowProxy" name="baseNameShadowProxy" ext="png"/>
+      <Depth path="pathDepth" name="baseNameDepth" ext="tif"/>
+      <Normal path="pathNormal" name="baseNameNormal" ext="tif"/>
+		</Internal_data>
+	</Directories>
+	<Settings>
+    <OutSunCalib path="pathOutSunCalib"/>
+    <ObjForRendering sizeTag="sizeTag1"/>
+		<Downscale a="1"/>
+		<WorldTransform_r a="-0.5" b="0" c="0.5"   d="1" e="1.5" f="2"   g="2.5" h="3" i="3.5"/>
+		<WorldTransform_t a="-0.5" b="0." c="0.5"/>
+		<SunDirection a="-0.5" b="0" c="0.5"/>
+    <Sample a="1024"/>
+    <Set a="0-5" b="8" c="15-50"/>
+	</Settings>
+</dataset>

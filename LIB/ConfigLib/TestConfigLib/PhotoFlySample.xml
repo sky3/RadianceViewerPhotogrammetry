@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RZML v="1.4.9" app="Project Photofly: 3.0.0.236" id="RLVZfizusaiDG4YIJIF25ozb5ng">
+  <CINF i="1" sw="5202" sh="3465" fbw="36.0312" fovs="s" fovx="96.6835" ds="s" pps="c" distoType="disto35d"/>
+  <SHOT i="1" n="IMG_1.jpg" ci="1" w="5202" h="3465">
+    <IPLN img="IMG_1.jpg" hash="4oj5/N6tq/jPAl/HnDe/swxO/W0iq/1Zc=-11853988-100000000"/>
+    <CFRM cf="1" fovx="93.3356" rd="0.0277248" rd2="-0.0279469" ppx="0.498746" ppy="0.504044">
+      <T x="-15.4646" y="-32.1168" z="5.94436"/>
+      <R x="97.724" y="0.888251"/>
+    </CFRM>
+  </SHOT>
+  <SHOT i="2" n="IMG_2.jpg" ci="1" w="5202" h="3465">
+    <IPLN img="IMG_3.jpg" hash="uprj/r7vR/QhDF/pOZJ/lHWN/PFcN/VFw=-11884923-100000000"/>
+    <CFRM cf="2" fovx="93.3356" rd="0.0277248" rd2="-0.0279469" ppx="0.498746" ppy="0.504044">
+      <T x="-14.2405" y="-31.8145" z="5.96151"/>
+      <R x="96.2782" y="-2.15207" z="-1.97264"/>
+    </CFRM>
+  </SHOT>
+  <SHOT i="3" n="IMG_3.jpg" ci="1" w="5202" h="3465">
+    <IPLN img="IMG_3.jpg" hash="NTUF/jzsz/Xe5d/eobJ/twou/WnhY/MXw=-11831609-100000000"/>
+    <CFRM cf="3" fovx="93.3356" rd="0.0277248" rd2="-0.0279469" ppx="0.498746" ppy="0.504044">
+      <T x="-11.8312" y="-30.9578" z="6.01226"/>
+      <R x="98.0445" y="-0.579244" z="2.8901"/>
+    </CFRM>
+  </SHOT>
+  <SHOT i="4" n="IMG_4.jpg" ci="1" w="5202" h="3465">
+    <IPLN img="IMG_4.jpg" hash="VHDG/VaTu/92QU/hdIG/1ecF/l8HR/lfs=-11181482-100000000"/>
+    <CFRM cf="4" fovx="93.3356" rd="0.0277248" rd2="-0.0279469" ppx="0.498746" ppy="0.504044">
+      <T x="-6.4958" y="-29.689" z="6.15338"/>
+      <R x="97.0949" y="1.33591" z="11.9926"/>
+    </CFRM>
+  </SHOT>
+  <SHOT i="5" n="IMG_5.jpg" ci="1" w="5202" h="3465">
+    <IPLN img="IMG_5.jpg" hash="VHDG/VaTu/92QU/hdIG/1ecF/l8HR/lfs=-11181482-100000000"/>
+  </SHOT>
+  <XREF url="3.0.0/XREF/XEGlSo1gVUyqizhC6nqlDv6772g=" t="markers2D" id="XEGlSo1gVUyqizhC6nqlDv6772g="/>
+  <XREF url="3.0.0/XREF/BWdKrSzPqQC74gPTVAuGBN1i1Xo=" t="locators" id="BWdKrSzPqQC74gPTVAuGBN1i1Xo="/>
+  <XREF url="" t="refproject" id="RLVZfizusaiDG4YIJIF25ozb5ng"/>
+  <XREF url="3.0.0/XREF/3MCn19YPJ1fUhXELHgfU3SnFPeg=" t="mesh" id="3MCn19YPJ1fUhXELHgfU3SnFPeg="/>
+  <SOBJ>
+    <CMESH xrefid="3MCn19YPJ1fUhXELHgfU3SnFPeg=" q="5"/>
+  </SOBJ>
+</RZML>
