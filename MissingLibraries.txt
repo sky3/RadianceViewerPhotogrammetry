@@ -1,0 +1,4 @@
+Xerces-c3.1 is required
+PCL
+glm-0.9.5.4 or above
+embree-2.3.1
