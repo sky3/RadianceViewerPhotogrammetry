@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\FileIO">
+      <UniqueIdentifier>{571815ef-be49-4101-bde3-a64c94254946}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\FileIO">
+      <UniqueIdentifier>{0e43b7a6-4cf0-4e26-bfc6-39ea7770632e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\Geom">
+      <UniqueIdentifier>{54ac8cfb-59e0-4af9-ace7-1ad9d009a643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\Geom">
+      <UniqueIdentifier>{a00fe6c2-4c3f-4b2d-acbe-f27820491a63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataRW.h">
+      <Filter>Fichiers d%27en-tête\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadBundleFile.h">
+      <Filter>Fichiers d%27en-tête\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Fichiers d%27en-tête\Geom</Filter>
+    </ClInclude>
+    <ClInclude Include="MVSPoint.h">
+      <Filter>Fichiers d%27en-tête\Geom</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadPMVSPoints.h">
+      <Filter>Fichiers d%27en-tête\FileIO</Filter>
+    </ClInclude>
+    <ClInclude Include="loadOBJMesh.h">
+      <Filter>Fichiers d%27en-tête\FileIO</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dataRW.cpp">
+      <Filter>Fichiers sources\FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadBundleFile.cpp">
+      <Filter>Fichiers sources\FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Fichiers sources\Geom</Filter>
+    </ClCompile>
+    <ClCompile Include="MVSPoint.cpp">
+      <Filter>Fichiers sources\Geom</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadPMVSPoints.cpp">
+      <Filter>Fichiers sources\FileIO</Filter>
+    </ClCompile>
+    <ClCompile Include="loadOBJMesh.cpp">
+      <Filter>Fichiers sources\FileIO</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
